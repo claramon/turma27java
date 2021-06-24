@@ -4,7 +4,6 @@ programa
 	
 	funcao inicio()
 	{
-		//declarar x1, x2, y1, y2, d
 		real x1, x2, y1, y2, d, a, b
 
 		escreva("digite o valor de x1: ")
@@ -29,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 434; 
+ * @POSICAO-CURSOR = 74; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

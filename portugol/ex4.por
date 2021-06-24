@@ -13,9 +13,9 @@ programa
 	leia(b)
 	escreva("letra c: ")
 	leia(c)
-	r = mat.potencia((a+b),2)
-	s = mat.potencia((b+c),2)
-	d = (r+s)/2 //
+	r = (a+b)*(a+b)
+	s = (b+c)*(b+c)
+	d = (r+s)/2 
 
 	escreva("resultado: " + d)
 	
@@ -27,7 +27,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 245; 
+ * @POSICAO-CURSOR = 225; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

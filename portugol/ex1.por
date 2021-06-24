@@ -16,7 +16,7 @@ programa
 	escreva("quantos anos? ")
 	leia(a)
 	
-	dt = ((a*365)+(m*30))+d
+	dt = (a*365)+(m*30)+d
 	escreva("total em dias: " + dt)
 	
 	}
