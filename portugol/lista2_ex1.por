@@ -20,11 +20,11 @@ programa
 
 		se (pesoPermitido < peso){
 			excesso = peso - pesoPermitido
-			multa = excesso * 40.0
+			multa = excesso * 4.0
 			escreva("Houve excesso de ",excesso," kgs com multa de R$ ",multa)
 		}
 		senao {
-			escreva("vc não paga multa hoje")
+			escreva("vc não paga multa hoje. Multa = 0, excesso = 0")
 		}
 	}
 }
@@ -33,7 +33,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 707; 
+ * @POSICAO-CURSOR = 970; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
