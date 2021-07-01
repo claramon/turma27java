@@ -10,7 +10,7 @@ programa
 		escreva("nome: ")
 		leia(nome)
 		escreva("temperatura em F: ")
-		leia(f)
+			leia(f)
 		//já declarei ela lá em cima, agr trago a conta
 		//agr posso usar o 'f' na conta, pq ele foi lido na linha acima
 		c = (f - 26) / 1.8
@@ -24,7 +24,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 134; 
+ * @POSICAO-CURSOR = 135; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
