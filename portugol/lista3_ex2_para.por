@@ -17,13 +17,13 @@ programa
 		}
 		escreva("a soma de todos os números ímpares multiplos de 3 até 500 é: ",soma)
 	}
-}
+}	
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 174; 
+ * @POSICAO-CURSOR = 559; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
