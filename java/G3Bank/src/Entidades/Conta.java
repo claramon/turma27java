@@ -4,31 +4,25 @@ public class Conta {
 
 	//atributos
 	private int numero;
-	private String cliente;
-	private double saldoConta;
+	protected double saldoConta;
 	
 	//construtor
-	public Conta(int numero, String cliente) {
+	public Conta(int numero,double saldoConta) {
 		super();
 		this.numero = numero;
-		this.cliente = cliente;
+		this.saldoConta=saldoConta;
 	}
 
 	//getters setters-encapsulamento
-	public int getNumero() {
-		return numero;
-	}
+
 	/* NÃO QUER QUE POSSA MUDAR O NUMERO
 	public void setNumero(int numero) {
 		this.numero = numero;
 	}*/
 
 	public String getCliente() {
+		String cliente="m";
 		return cliente;
-	}
-
-	public void setCliente(String cliente) {
-		this.cliente = cliente;
 	}
 
 	public double getSaldoConta() {
