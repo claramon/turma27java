@@ -4,14 +4,13 @@ public class Animal {
 	
 	private String nome;
 	private int idade;
-	private boolean som;
 	
 	
-	public Animal(String nome, int idade, boolean som) {
+	public Animal(String nome, int idade) {
 		super();
 		this.nome = nome;
 		this.idade = idade;
-		this.som = som;
+
 	}
 
 
@@ -34,14 +33,9 @@ public class Animal {
 		this.idade = idade;
 	}
 
-
-	public boolean getSom() {
-		return som;
-	}
-
-
-	public void setSom(boolean som) {
-		this.som = som;
+	// metodo proprio - regra geral
+	public void emiteSom() {
+		System.out.println("emitindo som...");
 	}
 
 

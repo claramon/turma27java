@@ -1,11 +1,12 @@
 package Objetos;
 
 public class Cachorro extends Animal {
+	
 	private boolean corre;
 	
-	public Cachorro (String nome, int idade, boolean som, boolean corre) {
+	public Cachorro (String nome, int idade,  boolean corre) {
 		
-		super(nome, idade, som);
+		super(nome, idade);
 		this.corre=corre;
 	}
 
@@ -17,6 +18,9 @@ public class Cachorro extends Animal {
 		this.corre = corre;
 	}
 	
-	
+	@Override//polimorfismo - cada animal faz um som diferente
+	public void emiteSom() {
+		System.out.println("au au au");
+	}
 	
 }

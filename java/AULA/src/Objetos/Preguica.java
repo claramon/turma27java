@@ -3,10 +3,10 @@ package Objetos;
 public class Preguica extends Animal{
 	private boolean sobeArvore;
 	
-	public Preguica (String nome, int idade, boolean som, boolean corre) {
+	public Preguica (String nome, int idade, boolean sobeArvore) {
 		
-		super(nome, idade, som);
-		this.sobeArvore=corre;
+		super(nome, idade);
+		this.sobeArvore=sobeArvore;
 	}
 
 	public boolean getSobeArvore() {
@@ -17,6 +17,9 @@ public class Preguica extends Animal{
 		this.sobeArvore = sobeArvore;
 	}
 	
-	
+	@Override//polimorfismo - cada animal faz um som diferente
+	public void emiteSom() {
+		System.out.println("???");
+	}
 	
 }
