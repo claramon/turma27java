@@ -1,4 +1,4 @@
-package entidades;
+package Entidades;
 
 public class ContaEstudante extends Conta {
 	private double emprestimo;

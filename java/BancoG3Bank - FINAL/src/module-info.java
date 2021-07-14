@@ -1,2 +1,0 @@
-module BancoG3Bank {
-}

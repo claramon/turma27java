@@ -1,4 +1,4 @@
-package entidades;
+package Entidades;
 
 public class ContaEmpresa extends Conta {
 	private double emprestimo;
@@ -26,6 +26,7 @@ public class ContaEmpresa extends Conta {
 		}
 		else if (valorEmprestimo>emprestimo) {
 			System.out.printf("Saldo insulficiente! Ainda restam R$ %d de limite de emprestimo!",emprestimo);
+			
 		} else if(valorEmprestimo <= emprestimo){
 			this.emprestimo = this.emprestimo - valorEmprestimo;
 			super.saldo = super.saldo + valorEmprestimo;
